@@ -16,16 +16,19 @@
 
 package com.lynden.gmapsfx.javascript.event;
 
-/** Enum containing the strings for the event types passed to the Google Maps 
- * APIs for UI events. Whilst drawn from those for the Map object, they should 
+/**
+ * Enum containing the strings for the event types passed to the Google Maps
+ * APIs for UI events. Whilst drawn from those for the Map object, they should
  * be the same for most other objects.
  * <p>
- * See <a href="https://developers.google.com/maps/documentation/javascript/reference?csw=1#Map">Google Maps Javascript API V3 Reference</a>
+ * See <a href=
+ * "https://developers.google.com/maps/documentation/javascript/reference?csw=1#Map">
+ * Google Maps Javascript API V3 Reference</a>
  *
  * @author Geoff Capper
  */
 public enum UIEventType {
-	
-	click, dblclick, mousemove, mouseup, mousedown, mouseover, mouseout, rightclick;
-    
+
+	click, dblclick, mousemove, mouseup, mousedown, mouseover, mouseout, rightclick, dragend;
+
 }
